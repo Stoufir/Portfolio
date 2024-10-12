@@ -1,9 +1,9 @@
-import Banner from '../components/Banner'
+import HomeInfo from '../components/HomeInfo'
 
 function Home () {
 return (
    <main>
-    <Banner></Banner>
+    <HomeInfo/>
     </main>
    
 )

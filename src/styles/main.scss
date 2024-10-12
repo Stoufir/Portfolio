@@ -1,7 +1,16 @@
 @import './header.scss';
-
+@import './homeinfo.scss';
+@import './footer.scss';
+@import './skills.scss';
+@import './projects.scss';
 
 body {
     margin: auto;
     max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Police pour les titres */
+    margin: 0; /* Supprime les marges par défaut des titres */
 }
