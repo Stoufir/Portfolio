@@ -12,10 +12,10 @@ function Projects() {
             <div className="project-gallery">
                 {projectsData.map(project => (
                     <div key={project.id} className="project-card">
+                        {/* Lien enveloppant le card entier */}
                         <Link to={`/project/${project.id}`}>
                             <img className="project-image" src={project.image} alt={project.title} />
                             <h2 className="project-title">{project.title}</h2>
-                            <p className="project-description">{project.description}</p>
                         </Link>
                     </div>
                 ))}

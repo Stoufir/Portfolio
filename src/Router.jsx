@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Projects from './pages/Projects'
 import ProjectDetail from './pages/ProjectDetail'
+import Contact from "./pages/Contact";
 
 function Router () { return (
   <BrowserRouter>
@@ -14,6 +15,7 @@ function Router () { return (
         <Route path="/*" element={<NotFound />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/project/:id" element={<ProjectDetail/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

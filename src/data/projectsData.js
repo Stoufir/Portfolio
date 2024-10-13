@@ -2,22 +2,28 @@
 const projectsData = [
     {
         id: 1,
-        title: 'Projet 1',
-        description: 'Une brève description de mon projet 1.',
-        image: 'chemin/vers/image1.png', // Remplacez par le chemin de votre image
+        title: 'Portfolio de Sophie Bluel',
+        description: 'J\'ai travaillé en équipe sur la réalisation de ce projet.',
+        image: require('../assets/SophieBluel/sophie-bluel.png'),
+        carousel: [
+            {
+                src: require('../assets/SophieBluel/Image1.png'),
+                description: 'Accueil du portfolio de Sophie Bluel'
+            },
+            {
+                src: require('../assets/SophieBluel/Image2.png'),
+                description: 'Galerie des projets de Sophie Bluel'
+            },
+            {
+                src: require('../assets/SophieBluel/Image3.png'),
+                description: 'Accès au log in du portfolio de Sophie Bluel'
+            },
+        ],
         liveLink: 'https://lien-vers-le-projet-1.com',
         codeLink: 'https://github.com/username/projet1',
-        category: 'Front End' // Exemple de catégorie
+        category: 'Front End'
     },
-    {
-        id: 2,
-        title: 'Projet 2',
-        description: 'Une brève description de mon projet 2.',
-        image: 'chemin/vers/image2.png', // Remplacez par le chemin de votre image
-        liveLink: 'https://lien-vers-le-projet-2.com',
-        codeLink: 'https://github.com/username/projet2',
-        category: 'Back End' // Exemple de catégorie
-    },
+    
     // Ajoutez d'autres projets ici
 ];
 
