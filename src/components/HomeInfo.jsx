@@ -7,7 +7,7 @@ const HomeInfo = () => {
     <div className="home-info-container">
       {/* Section de présentation */}
       <section className="hero">
-        <h1>Salut, je suis Salim, développeur web passionné !</h1>
+        <h1>Bonjour, je suis Salim, développeur web passionné !</h1>
         <p>Je crée des applications web modernes avec React, Node.js, et MongoDB, alliant performance et simplicité.</p>
         <NavLink to="/projects" className="cta-button">
           Découvrez mes projets
@@ -17,7 +17,8 @@ const HomeInfo = () => {
       {/* Section rapide "À propos" */}
       <section className="about-quick">
         <h2>À propos de moi</h2>
-        <p>Je suis un développeur web avec une expérience solide dans la création de solutions complètes, allant du design d’interface à la mise en place de back-end. Ma priorité est de concevoir des sites et des applications qui résolvent des problèmes réels tout en offrant une expérience utilisateur fluide.</p>
+        <p>Je suis un développeur web avec une expérience dans la création de solutions complètes, allant du design d’interface à la mise en place de back-end. Mon objectif est de concevoir des sites et des applications qui offrent une expérience utilisateur fluide tout en répondant aux attentes.</p>
+        <p>J'ai suivi une formation de développeur web auprès d'OpenClassrooms, ce qui m'a permis de développer certaines compétences. </p>
       </section>
 
       {/* Section compétences */}

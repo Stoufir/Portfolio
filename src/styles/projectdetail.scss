@@ -1,0 +1,101 @@
+.project-details {
+    padding: 2rem;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #666;
+    }
+
+    .project-info {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            color: #555;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+
+            li {
+                font-size: 1.1rem;
+                color: #444;
+            }
+        }
+
+        .issues-container {
+            display: flex;
+            flex-direction: column; // Affiche les cartes verticalement
+            gap: 1rem; // Espace entre les cartes
+
+            .issue-card {
+                padding: 1rem;
+                border: 1px solid #ccc; // Bordure pour les cartes
+                border-radius: 5px;
+                background-color: #f9f9f9; // Couleur de fond des cartes
+                transition: box-shadow 0.3s;
+
+                &:hover {
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); // Ombre au survol
+                }
+
+                strong {
+                    color: #007bff; // Couleur des titres des problèmes et solutions
+                }
+            }
+        }
+
+        .project-links {
+            margin: 1rem 0;
+
+            a {
+                display: inline-block;
+                margin-right: 1rem;
+                color: #007bff;
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #0056b3;
+                }
+            }
+        }
+    }
+
+    .back-button {
+        margin-top: 2rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}

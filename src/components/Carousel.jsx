@@ -21,7 +21,7 @@ function ProjectsCarousel({ projectId }) {
                 infiniteLoop // Permet de boucler le carrousel
                 useKeyboardArrows // Utilisation des flèches du clavier
                 autoPlay // Lancer le carrousel automatiquement
-                interval={9000} // Intervalle entre les images
+                interval={4000} // Intervalle entre les images
                 className="carousel" // Ajouter une classe pour le style
             >
                 {project.carousel.map((image, index) => (

@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",    // Ajouté pour construire avant le déploiement
-    "deploy": "gh-pages -d build"    // Ajouté pour déployer sur GitHub Pages
+    "predeploy": "npm run build",    
+    "deploy": "gh-pages -d build"   
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +43,5 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://stoufir.github.io/Portfolio/" // Remplacez <USERNAME> et <REPOSITORY>
+  "homepage": "http://salimwebstudio.fr"
 }

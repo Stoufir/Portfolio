@@ -19,12 +19,13 @@
             align-items: center;
             img {
                 width: 60px; /* Ajustez la taille selon vos préférences */
-                height: auto;
+                height: 60px; /* Assurez-vous que toutes les icônes ont la même hauteur */
                 margin-bottom: 10px;
             }
             h3 {
                 font-size: 20px;
                 color: black; /* Changez cette couleur si nécessaire */
+                margin: 0; /* Pour éviter un espacement supplémentaire */
             }
         }
     }
